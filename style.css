@@ -1,0 +1,221 @@
+body {
+    background-color: rgb(253, 251, 251);
+    margin: 0 auto;
+}
+
+h2 {
+    text-align: center;
+    color: rgb(255, 164, 0);
+    font-size: 1.6em;
+}
+
+h3 {
+    font-size: xx-large;
+    color: rgb(255, 164, 0);
+    margin: 0 auto;
+    margin-left: 33%;
+    margin-bottom: 2%
+}
+
+li,
+p {
+    color: rgb(253, 251, 251);
+    font-family: "Righteous", cursive;
+    line-height: 35px;
+    font-size: 1.1em;
+}
+
+span {
+    color: rgb(47, 193, 140)
+}
+
+
+/* Cabeçalho da página */
+
+#cabecalho {
+    position: fixed;
+    top: 0;
+    width: 99.9%;
+    height: 100px;
+    background-color: rgb(77, 83, 130);
+    box-shadow: 1px 1px 0.7em rgb(77, 83, 130);
+    z-index: 1;
+}
+
+#titulo {
+    color: rgb(253, 251, 251);
+    text-align: center;
+    font-family: "Original Surfer", cursive;
+    font-size: 2em;
+}
+
+
+/* Nav bar */
+
+.contatos ul {
+    text-align: center;
+}
+
+.contatos li {
+    display: inline-block;
+    margin-right: 1%;
+}
+
+
+/*Ícones clicáveis da Nav Bar*/
+
+.fab,
+.far {
+    font-size: 42px;
+}
+
+.fa-linkedin,
+.fa-github,
+.fa-envelope {
+    color: rgb(255, 164, 0);
+}
+
+.fa-linkedin:hover,
+.fa-github:hover,
+.fa-envelope:hover {
+    color: rgb(227, 121, 0);
+    transition: 250ms;
+    font-size: 53px;
+}
+
+
+/* Primeira seção */
+
+.first-layer {
+    width: 99.9%;
+    margin-top: 10%;
+    margin-bottom: 3%;
+}
+
+#minha_foto {
+    position: absolute;
+    right: 50%;
+    transform: translatex(50%);
+    border-radius: 25%;
+    box-shadow: 1px 2px 0.6em rgb(77, 83, 130);
+}
+
+
+/* Listas da primeira seção */
+
+.about-list {
+    display: inline-block;
+    padding: 3%;
+    margin: 5%;
+    width: 25%;
+    font-size: 1.3em;
+    margin-top: 7%;
+    border-style: solid;
+    border-radius: 14px;
+    background-color: rgb(77, 83, 130);
+    box-shadow: 1px 2px 0.6em black;
+}
+
+.about-list:hover {
+    background-color: rgba(63, 68, 107, 0.966);
+    transition: 100ms;
+}
+
+.next-steps {
+    float: right;
+}
+
+
+/* Segunda seção */
+
+.about-container {
+    height: 377px
+}
+
+.about-text {
+    border-style: solid;
+    padding: 1.4%;
+    font-size: larger;
+    display: inline-block;
+    width: 46%;
+    background-color: rgb(77, 83, 130);
+    border-radius: 14px;
+    box-shadow: 1px 2px 0.6em black;
+}
+
+.about-text:hover {
+    background-color: rgba(63, 68, 107, 0.966);
+    transition: 100ms;
+}
+
+.lado-direito {
+    float: right;
+    position: flex;
+    top: 5%;
+}
+
+.lado-esquerdo {
+    float: left;
+    position: flex;
+    top: auto;
+}
+
+aside {
+    position: relative;
+    width: 40%;
+    float: left;
+}
+
+
+/* Seção da tabela */
+
+table {
+    margin: 0 auto;
+}
+
+table,
+th,
+td {
+    border: 2px black solid;
+    border-collapse: separate;
+    font-size: 1.12em;
+    box-shadow: 1px 2px 0.3em black;
+}
+
+th {
+    color: rgb(255, 164, 0);
+}
+
+th:hover {
+    background-color: rgba(63, 68, 107, 0.966);
+    transition: 100ms;
+}
+
+tr {
+    background-color: rgb(77, 83, 130);
+}
+
+.right-check {
+    background-color: rgb(47, 193, 140);
+}
+
+.wrong-check {
+    background-color: red;
+    color: rgb(253, 251, 251);
+}
+
+footer {
+    background-color: rgb(77, 83, 130);
+    width: 99.8%;
+    margin-top: 3%;
+    padding: 1.2%;
+}
+
+footer p {
+    text-align: center;
+    font-size: smaller;
+}
+
+footer a {
+    color: white;
+}
